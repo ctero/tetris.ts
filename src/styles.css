@@ -10,7 +10,7 @@ body {
   height: 100%;
   overflow: hidden;
   background: #05051e;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #game-container {

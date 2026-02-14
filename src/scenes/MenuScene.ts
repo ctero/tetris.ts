@@ -53,7 +53,7 @@ export class MenuScene extends Phaser.Scene {
         overlay.setDepth(1);
 
         // Title
-        const titleText = this.add.text(width / 2, 90, 'TETRIS', {
+        const titleText = this.add.text(width / 2, 90, 'tetris.ts', {
             fontFamily: 'Orbitron, monospace',
             fontSize: '56px',
             fontStyle: 'bold',
@@ -73,7 +73,7 @@ export class MenuScene extends Phaser.Scene {
         });
 
         // Subtitle
-        this.add.text(width / 2, 145, 'MODERN CLONE', {
+        this.add.text(width / 2, 145, 'by Chris Tero', {
             fontFamily: 'Orbitron, monospace',
             fontSize: '14px',
             color: COLORS.subtitle,
@@ -102,8 +102,8 @@ export class MenuScene extends Phaser.Scene {
         ];
         controlLines.forEach((line, i) => {
             this.add.text(width / 2, controlsY + i * 22, line, {
-                fontFamily: 'Inter, sans-serif',
-                fontSize: '11px',
+                fontFamily: 'Roboto, sans-serif',
+                fontSize: '14px',
                 color: COLORS.textDim,
                 align: 'center',
             }).setOrigin(0.5).setDepth(2);
@@ -136,8 +136,8 @@ export class MenuScene extends Phaser.Scene {
 
         // Description
         const descText = this.add.text(x, y + 16, description, {
-            fontFamily: 'Inter, sans-serif',
-            fontSize: '11px',
+            fontFamily: 'Roboto, sans-serif',
+            fontSize: '13px',
             color: COLORS.textDim,
         }).setOrigin(0.5).setDepth(3);
 

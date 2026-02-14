@@ -311,7 +311,7 @@ export class GameScene extends Phaser.Scene {
         this.pauseOverlay.add(text);
 
         const subText = this.add.text(width / 2, height / 2 + 50, 'Press ESC to resume', {
-            fontFamily: 'Inter, sans-serif',
+            fontFamily: 'Roboto, sans-serif',
             fontSize: '14px',
             color: '#6666aa',
         }).setOrigin(0.5);
@@ -361,7 +361,7 @@ export class GameScene extends Phaser.Scene {
 
         stats.forEach((stat, i) => {
             const t = this.add.text(width / 2, height / 2 - 40 + i * 30, stat, {
-                fontFamily: 'Inter, sans-serif',
+                fontFamily: 'Roboto, sans-serif',
                 fontSize: '16px',
                 color: '#ccccee',
             }).setOrigin(0.5);
