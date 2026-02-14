@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+    base: '/tetris.ts/',
     test: {
         globals: true,
         environment: 'node',
